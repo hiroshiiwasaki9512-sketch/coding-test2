@@ -17,7 +17,7 @@ function extract(input){
 }
 
 function deepFlatten(value) {
-    extract(Object.values(value))
+    extract(value)
     console.log(result)
     return result
 }
